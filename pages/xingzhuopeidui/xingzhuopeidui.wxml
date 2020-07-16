@@ -1,0 +1,23 @@
+<!--pages/xingzhuopeidui/xingzhuopeidui.wxml-->
+<view class='nav'>
+  <image src='http://img5.imgtn.bdimg.com/it/u=1343889216,1341214727&fm=26&gp=0.jpg'></image>
+  <view class='text'>
+    <text>男生星座</text>
+    <text>女生星座</text>
+  </view>
+</view>
+<view class="bottom">
+<view class='inputview'>
+  <input class='inputtxt' bindinput='inputtxt_1'></input>
+  <input class='inputtxt' bindinput='inputtxt_2'></input>
+</view>
+<view class="click">
+<view class='button'>
+  <button bindtap='peidui'>配对分析</button>
+  </view>
+  </view>
+<view>标题:{{title}}</view>
+<view>点评:{{grade}}</view>
+<view>内容：{{content}}</view>
+</view>
+

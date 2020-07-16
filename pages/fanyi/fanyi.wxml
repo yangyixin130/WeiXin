@@ -1,0 +1,21 @@
+<!--pages/fanyi/fanyi.wxml-->
+<view class='tag'>
+<image src='https://tse2.mm.bing.net/th?id=OIP.cYFcusIuC7QSWC8RpGpiOAAAAA&amp;pid=Api&amp;rs=1'></image>
+</view>
+
+<view class='text'>
+  <textarea bindinput='textarea_1' placeholder='请输入需要翻译的内容' value='{{text_1}}'></textarea>
+</view>
+
+<view class='sign'>
+  <view class='sign-font'>{{en}}</view>
+  <image bindtap='change' src='/images/20200114235502.png' class="lala"></image>
+  <view class='sign-font'>{{zh}}</view>
+</view>
+
+
+
+<view class='click'>
+  <button bindtap='fanyi'>翻译</button>
+</view>
+

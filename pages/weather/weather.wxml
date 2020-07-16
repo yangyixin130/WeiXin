@@ -1,0 +1,55 @@
+<!--pages/weather/weather.wxml-->
+<view class='hotSelf wrap mt40'>
+<view class='titlewirp m5'>
+<text><text></text>天气预报
+</text>
+<text>更多</text>
+</view>
+<view class='hotSelf_cont m5'>
+<movable-area>
+<movable-view direction='horizontal' inertia>
+<view><image src='http://image.biaobaiju.com/uploads/20190113/23/1547391856-vqmHJEWTFy.jpeg'></image>
+<view class='songTitle'>{{date}}</view>
+
+</view>
+<view><image src='http://file06.16sucai.com/2016/0712/bd765f2b117a08b2ca173083bf71d3ab.jpg'></image>
+<view class='songTitle'>{{date}}</view>
+
+</view>
+<view><image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1579108158242&di=ea3602995f00d7671f97483424072ae7&imgtype=0&src=http%3A%2F%2Fattach.hunantv.com%2Fuploads%2Fimages%2Fcms_img%2F200909%2F25%2F13%2F2253920534068619341.jpg'></image>
+
+<view class='songTitle'>{{date}}</view>
+
+</view>
+<view><image src='../../images/img04.jpg'></image>
+<view class='songTitle'>{{date}}</view>
+
+</view>
+</movable-view>
+</movable-area>
+</view></view>
+
+
+
+
+
+
+<view class='weather-1'>
+<view class='text'> 
+ <input class='inputtxt' bindinput='inputtxt_1'  placeholder='请输入城市' >
+	</input>
+  <view class='click' bindtap='fanyi'>
+	<view>
+     <button bindtap='weahter'>查询</button>
+	</view>
+</view>
+</view>
+<view ></view>
+<view>时间：{{date}}</view>
+<view>星期：{{week}}</view>
+<view>天气情况：{{weather}}</view>
+<view>最高温度：{{highest}}</view>
+<view>最低温度：{{lowest}}</view>
+<view>风向：{{wind}}</view>
+
+</view>

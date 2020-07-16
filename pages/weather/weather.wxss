@@ -1,0 +1,103 @@
+/* pages/weather/weather.wxss */
+.weather{
+  width: 100%;
+  height: 390rpx;
+   background-color:rgb(110,120,156);
+    display: flex;
+  justify-content:space-around;
+  align-items: center; 
+ 
+}
+
+.weather>text{
+  font-size: 200rpx;
+}
+.weather-1{
+    width: 100%;
+  height: 100%;
+   background-color:rgb(144,151,176);
+ 
+}
+.weather-1>view{
+   width: 100%;
+  display: flex;
+  padding: 35rpx 60rpx;
+}
+.inputtxt{
+  width: 80%;
+  height:100rpx ;
+  border: 5rpx solid rgb(255,255,255);
+  border-radius: 50rpx;
+  }
+  .click{
+    height: 100rpx;
+    width: 100%;
+    
+    display: flex;
+   justify-content:space-around;
+   align-items: center;
+  }
+  .click>view{
+   height: rpx;
+   width: 300rpx;
+   border-radius: 20rpx;
+   
+  }
+  .click-text{
+   display: flex;
+   justify-content:space-around;
+   font-size:60rpx;
+  }
+  .hotSelf{
+    height: 490rpx;
+    background-color:rgb(110,120,156);
+  }
+  .titlewirp{
+    height: 44rpx;
+    padding:20rpx 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .titlewirp>text{
+    font-size: 36rpx;
+  }
+  .titlewirp>text:last-child{
+    font-size: 28rpx;
+  }
+  .titlewirp>text text:first-child{
+    width: 6rpx;
+    height: 30rpx;
+    display: inline-block;
+    border-left: 6rpx solid #2196f3;
+  }
+  movable-area{
+    width: 100%;
+    height: 400rpx;
+   
+  } 
+  movable-view{
+    width: 365%;
+    height: 400rpx;
+  display: flex;
+  }
+  movable-view view{
+    margin-right: 40rpx;
+  }
+  .hotSelf_cont image{
+    width: 400rpx;
+    height: 300rpx;
+    border-radius: 8rpx;
+  }
+  .hotSelf_cont .songTitle{
+    font: 32rpx;
+  }
+  .hotSelf_cont .songer{
+    font: 24rpx;
+    color: #d9d9d9;
+  }
+ .biao>view{
+   font-style: unset;
+   font: 10rpx;
+   height: 50rpx;
+ }

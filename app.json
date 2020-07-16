@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/xingzhuopeidui/xingzhuopeidui",
+  
+    "pages/fanyi/fanyi",
+    "pages/weather/weather",
+    "pages/yaopin/yaopin",
+    "pages/duanzi/duanzi",
+    "pages/my/yijian/yijian",
+    "pages/my/my",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "实用工具",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f4f4f4"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/首页-未选中.png",
+        "selectedIconPath": "images/首页-选中.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/我的-未选中.png",
+        "selectedIconPath": "images/我的-选中.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,28 @@
+/* pages/my/yijian/yijian.wxss */
+.click{
+  height: 100rpx;
+  width: 100%;
+  border-top: 50rpx solid rgb(255,255,255);
+  display: flex;
+ justify-content:space-around;
+ align-items: center;
+}
+.click>view{
+ height: 100rpx;
+ width: 300rpx;
+ background-color:  rgb(166, 65, 254);
+ border-radius: 20rpx;
+ 
+}
+.click-text{
+ display: flex;
+ justify-content:space-around;
+ font-size:60rpx;
+}
+.text{
+  width: 100%;
+height: 200rpx;
+background-color: rgb(232, 233, 233);
+border-radius: 50rpx;
+
+}

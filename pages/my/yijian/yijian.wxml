@@ -1,0 +1,9 @@
+<!--pages/my/yijian/yijian.wxml-->
+<view class='text' bindtap='clickview'>
+<text>请输入需要翻译的内容</text>
+</view>
+<view class='click'>
+<view>
+<text class='click-text'>点击翻译</text>
+</view>
+</view>

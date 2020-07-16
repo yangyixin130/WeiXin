@@ -1,0 +1,82 @@
+page {
+  background-color: rgb(244, 244, 244);
+}
+
+.bilibili-nav {
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(74, 74, 74);
+  font-size: 40rpx;
+  border-top: 5rpx solid rgb(239, 239, 239);
+}
+
+.bilibili-nav > text:first-child {
+  padding: 5rpx, 5rpx; /*内边距 */
+  border-bottom: 10rpx solid rgb(222, 105, 140);
+}
+
+/* 滚动广告 */
+
+.bilibili-banner {
+  width: 100%;
+  height: 175px;
+  overflow: hidden;
+}
+
+/* 让swiper-image的图片大小和swiper占用的r的相同 */
+
+swiper, .swiper-image {
+  width: 100%;
+  height: 175px;
+}
+
+/* 热门推荐 */
+
+.bilibili-hot {
+  width: 100%;
+  margin-top: 20rpx;
+}
+
+.bilibili-hot-title {
+  height: 60rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rpx 60rpx;
+}
+
+/* 热门推荐列表*/
+
+.bilibili-hot-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #fff;
+}
+
+/* 图+文列表 */
+
+.bilibili-hot-list-item {
+  width: 350rpx;
+  height: 280rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bilibili-hot-list-item > image {
+  width: 320rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+.bilibili-hot-list-item-text{
+  width: 100%;
+  display: flex;
+justify-content: space-between;
+font-size: 25rpx;
+}

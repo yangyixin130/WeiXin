@@ -1,0 +1,20 @@
+<view class="back">
+	<image src='http://bpic.588ku.com/back_pic/05/27/00/625a012b4c45952.jpg!/fw/260/quality/90/unsharp/true/compress/true'></image>
+</view>
+
+<text class="mm">请输入药品名:</text>
+<view class='text'>  <input class='inputtxt' bindinput='inputtxt_1'>
+	</input>
+</view>
+
+<view class='click' bindtap='fanyi'>
+	<view>
+     <button bindtap='peidui'>查询</button>
+	</view>
+</view>
+<view class="output"></view>
+
+<view class='weather-1' >
+<view>药品名称:{{title}}</view>
+<view>药品内容:{{content}}</view>
+</view>

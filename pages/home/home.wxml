@@ -1,0 +1,92 @@
+<!--轮播-->
+<view class='lunbo'>
+  <swiper autoplay='true' interval='2000' indicator-dots autoplay circular >
+    <swiper-item bindtap='toduanzi'>
+      <image class='swiper-image' src='https://tse1.mm.bing.net/th?id=OIP.1ORibZG5TziZaKevB2DSTQHaFP&pid=Api&rs=1'></image>
+    </swiper-item>
+    <swiper-item bindtap='toxingzhuopeidui'>
+      <image class='swiper-image' src='http://image.biaobaiju.com/uploads/20200102/52b18102994674dad2b54170ffabc32f.jpg'></image>
+    </swiper-item>
+    <swiper-item bindtap='toweather'>
+      <image class='swiper-image' src='http://i0.sinaimg.cn/dy/news/2015/0209/1423439049_ZER3rg.jpg'></image>
+    </swiper-item >
+    <swiper-item bindtap='toxingzhuopeidui'>
+      <image class='swiper-image' src='http://img.kutoo8.com/upload/image/18471436/140-15022P93P4_960x540.jpg'></image>
+    </swiper-item>
+    <swiper-item  bindtap='toduanzi'>
+      <image class='swiper-image' src='https://tse1.mm.bing.net/th?id=OIP.WvWDspUbXp76QWyMvwuNcwHaEo&pid=Api&rs=1'></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!--功能-->
+<view class='function'>
+  <view class='function1' bindtap='toduanzi'>
+    <image src='https://pic.cr173.com/up/2016-11/20161111852295875.png'></image>
+    <view class='function1-text'>
+      <text>内涵段子</text>
+    </view>
+  </view>
+  <view class='function1' bindtap='toxingzhuopeidui'>
+    <image src='http://img1.gtimg.com/astro/pics/hv1/251/22/1464/95202461.jpg'></image>
+    <view class='function1-text'>
+      <text>星座配对</text>
+    </view>
+  </view>
+  <view class='function1' bindtap='tofanyi'>
+    <image src='http://img.25pp.com/uploadfile/app/icon/20160803/1470175528771095.jpg'></image>
+    <view class='function1-text'>
+      <text>翻译</text>
+    </view>
+  </view>
+</view>
+
+<view class='function'>
+  <view class='function1'>
+    <image src='http://i-3.qqxzb.com/2018/3/6/800cdf04-ce14-4e11-b231-65315d8762b1.jpg'></image>
+    <view class='function1-text'>
+      <text>手持弹幕</text>
+    </view>
+  </view>
+  <view class='function1' bindtap='toweather'>
+    <image src='http://is3.mzstatic.com/image/thumb/Purple7/v4/29/17/96/2917960c-4534-e677-bcc1-f5d47bf8f070/pr_source.png/0x0ss-85.jpg'></image>
+    <view class='function1-text'>
+      <text>天气预报</text>
+    </view>
+  </view>
+  <view class='function1' bindtap='toyaopin'>
+    <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1579108806191&di=ccf6d284b20bc51bfb5e086a240afc46&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Felement_origin_min_pic%2F18%2F07%2F28%2Fde154b6f8f6874a16bdb428480172b10.jpg'></image>
+    <view class='function1-text'>
+      <text>药品说明书</text>
+    </view>
+  </view>
+</view>
+
+<view class='hotSelf wrap mt40'>
+<view class='titlewirp m5'>
+<text><text></text>猜你想看
+</text>
+<text>更多</text>
+</view>
+<view class='hotSelf_cont m5'>
+<movable-area>
+<movable-view direction='horizontal' inertia>
+<view bindtap='toxingzhuopeidui'><image src='http://image.biaobaiju.com/uploads/20190113/23/1547391856-vqmHJEWTFy.jpeg'></image>
+<view class='songTitle'>测测你的另一半</view>
+</view>
+
+<view bindtap='toweather'><image src='http://file06.16sucai.com/2016/0712/bd765f2b117a08b2ca173083bf71d3ab.jpg'></image>
+<view class='songTitle'>该不该带伞</view>
+</view>
+
+<view bindtap='toweather'><image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1579108158242&di=ea3602995f00d7671f97483424072ae7&imgtype=0&src=http%3A%2F%2Fattach.hunantv.com%2Fuploads%2Fimages%2Fcms_img%2F200909%2F25%2F13%2F2253920534068619341.jpg'></image>
+<view class='songTitle'>72小时天气预报</view>
+
+</view>
+<view  bindtap='toyaopin'><image src='http://images.quanjing.com/chineseview064/high/mhrf-cpmh-32222.jpg'></image>
+<view class='songTitle'>药品功能早知道</view>
+
+</view>
+</movable-view>
+</movable-area>
+</view></view>

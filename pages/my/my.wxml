@@ -1,0 +1,12 @@
+<!--pages/my/my.wxml-->
+<view class='my-top'>
+<image src='http://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20181214/6e00a9e09e8d4be8af46ebcd6e44a9db.jpeg'></image>
+<text>西瓜你个皮皮</text>
+</view>
+
+<view class='lit-nav'>
+  <view bindtap="toyijian">意见反馈</view>
+  <view>赞赏支持</view>
+  <view>关于</view>
+  <view>设置</view>
+  </view>

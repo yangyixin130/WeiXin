@@ -1,0 +1,65 @@
+<!--pages/duanzi/duanzi.wxml-->
+<!-- B站小程序导航栏设计 -->
+<!-- <import src='..paner/paner.wxml'> -->
+<view class='bilibili-nav'>
+  <text>视频</text>
+  <text>段子</text>
+  <text>搞笑</text>
+  <text>图片</text>
+  <text>我的</text>
+</view>
+
+<!-- 滚动广告 -->
+<!-- swiper是容器，swiper-item是内容 -->
+<view class='bilibili-banner'>
+  <swiper autoplay='true' interval='2000'>
+    <!-- 整滚动图片是否为自己动，以及滑动时间  -->
+    <swiper-item wx:for="{{imgUrls}}">
+      <image class='swiper-image' src='{{item}}'></image>
+    </swiper-item>
+  </swiper>
+</view>
+<!-- 热门标签 -->
+<view class='bilibili-hot'>
+
+  <!-- 热门推荐标题 -->
+  <view class='bilibili-hot-title'>
+    <text>热门视频榜</text>
+  </view>
+
+  <!-- 热门推荐列表 -->
+  <view class='bilibili-hot-list'>
+    <view class='bilibili-hot-list-item'>
+      <image src='https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3430513028,2469872713&fm=26&gp=0.jpg'></image>
+      <text>权力的游戏</text>
+      <view class='bilibili-hot-list-item-text'>
+        <text>4.7万</text>
+        <text>855</text>
+      </view>
+    </view>
+    <view class='bilibili-hot-list-item'>
+      <image src='http://i1.hdslb.com/bfs/archive/ecce95b426faf188e6c28f9d3a0bdc63c5a72bb3.jpg_320x200.jpg'></image>
+      <text>斗图帝装逼不如斗图</text>
+      <view class='bilibili-hot-list-item-text'>
+        <text>4.7万</text>
+        <text>855</text>
+      </view>
+    </view>
+    <view class='bilibili-hot-list-item'>
+      <image src='http://i0.hdslb.com/bfs/archive/11bf8d41fffcad31976317760e301e2db64be8c8.png_320x200.png'></image>
+      <text>【胖胖球】漂亮美女</text>
+      <view class='bilibili-hot-list-item-text'>
+        <text>4.7万</text>
+        <text>855</text>
+      </view>
+    </view>
+    <view class='bilibili-hot-list-item'>
+      <image src='http://i0.hdslb.com/bfs/archive/e73a92b0ed615b4d6568888906d09f84d0835674.jpg_320x200.jpg'></image>
+      <text>撩人净土 漂亮美女</text>
+      <view class='bilibili-hot-list-item-text'>
+        <text>4.7万</text>
+        <text>855</text>
+      </view>
+    </view>
+  </view>
+</view>
